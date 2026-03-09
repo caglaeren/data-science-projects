@@ -19,6 +19,10 @@ This repository contains a collection of hands-on data science and Python projec
 - Excel export & automation
 - Clean code structuring
 - Modular Python architecture
+- Neural Network Architecture (ANN)
+- Supervised Learning (Regression & Classification)
+- End-to-End Pipeline Design
+- Data Normalization & Scaling
 
 
 # 📁 Projects Overview
@@ -97,6 +101,38 @@ This repository contains a collection of hands-on data science and Python projec
 - Clean modular design
 
 
+## 7️⃣ Customer Churn Prediction (TensorFlow)
+
+**File:** `tensorflow_churn_prediction.ipynb`
+
+Focus areas:
+- **Binary Classification:** Designing a neural network architecture to predict customer churn probability.
+- **TensorFlow/Keras Fundamentals:** Tensor logic, dense layer structures, and activation functions.
+- **Model Evaluation:** Performance analysis across training, validation, and test sets (~72% accuracy).
+- **Business Analytics:** Early identification of high-risk customers to support retention strategies.
+
+
+
+## 8️⃣ Car Price Prediction System (TensorFlow)
+
+**File:** `tensorflow_car_price_prediction.ipynb`
+
+Focus areas:
+- **Regression Analysis:** Building a model to estimate continuous numerical values (car prices) based on features like year, mileage, and engine volume.
+- **Data Preprocessing:** Feature engineering and Min-Max scaling to ensure stable convergence during the training process.
+- **Optimization:** Designing a multi-layered Neural Network to minimize prediction error (Mean Absolute Error).
+- **Performance Metrics:** Evaluating the model's ability to price used cars within a specific market range.
+
+
+## 9️⃣ End-to-End Car Price Intelligence
+
+**File:** `end_to_end_car_price_intelligence.ipynb`
+
+Focus areas:
+- **Full Data Pipeline:** Navigating the complete lifecycle from raw data ingestion and cleaning to outlier detection and handling missing values.
+- **Exploratory Data Analysis (EDA):** Utilizing advanced visualizations to uncover hidden correlations between vehicle specs and market value.
+- **Model Interpretation:** Analyzing where the model excels (mid-range prices) and where it faces challenges (luxury or vintage segments).
+- **Executive Summary:** Translating technical metrics into actionable business insights and proposing strategies for future model iterations.
 
 ## 📈 Business Thinking Approach
 
@@ -115,6 +151,9 @@ The goal is not just coding — but extracting actionable insight from data.
 - Pandas
 - Matplotlib
 - Jupyter Notebook
+- TensorFlow & Keras (Deep Learning models)
+- Scikit-Learn (Data splitting and evaluation metrics)
+- Seaborn (Advanced data visualization)
 
 
 
